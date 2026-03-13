@@ -1,10 +1,23 @@
-// AMBITIOUS
-//Try to catch the sun
+// Adjective: AMBITIOUS 
 
 // COLORS
-let skyColor = "#6199C0"; // blue sky
-let sunColor = "#FFF2B4"; // yellow sun
-let mountainColor = "#D2E4F2"; // icy white blue
+let sky = "#6199C0"; // blue sky
+let sun = "#FFF9DA"; // yellow sun 
+let mtn = "#D2E4F2"; // icy white blue
 
-// STAR VARIABLES
-let x, y, size1; // x + y are where a star gets drawn, size1 is how big it is
+// MOUNTAIN
+let peakX = 560;
+let peakY = 390;
+
+// STARS
+let x, y, size1; //x and y are where stars get drawn
+
+// SNOW
+let snowflakes = []; // array (a list that stores a lot of snowflake objects)
+
+// MOON
+let moonHomeX = 300; // DEFAULT POSITION
+let moonHomeY = 250;
+let moonR = 170;
+let moonCX, moonCY; // where the sun actually is right now
+let ropeAnchorX, ropeAnchorY; // where the sun meets the rope
