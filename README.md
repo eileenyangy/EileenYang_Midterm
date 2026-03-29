@@ -7,8 +7,6 @@ Submit by March 13th 18:00 (6pm) to openProcessing & your github repo
 Inclass feedback: March 23rd & 25th (attendance mandatory)
 Final Submissions Due  March 30th midnight to openProcessing & your github repo 
 
-20% of your final grade
-
 Must be completed in p5.js
 Weekly pushes and development are expected; As is demonstration of change over time (state machine)
 Pick an adjective and make a program that graphically illustrates that adjective interactively/responsively or by animation. Time is an element here. What we are seeing, must change over time. It is not a flat image. You may not use images nor pixels. You may not use an external library. You may not use sound. You may not use text. Use only drawing functions, and things that create graphics. You are to illustrate this adjective over time. Think of it as a performance that unfolds over several acts and builds to reveal your adjective.
@@ -58,3 +56,5 @@ Must haves:
 To give you an idea of how much development I'm looking for, your code should be well beyond 100 lines of code, which incorporates the concepts we've learned thus far. Spacing, comments or commented out code are not counted as lines.
 
 Weekly pushes to your GitHub Repo are required I will be reviewing these to note the strides and steady development. This is not a project that can be done in one sitting. If you do so, you are missing the value of this assignment.
+
+Quick note: I edited my code on p5.js web editor for a lot of the project to see quick feedback. Sorry about the late pushes to Github, I honestly had no idea how to use it for a while
