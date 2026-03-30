@@ -1,11 +1,15 @@
 // Adjective: AMBITIOUS :)
 //Creative direction: Reaching for the moon
-//Testing
 
 // COLORS
 let sky = "#6199C0"; // blue sky
 let moon = "#FFF9DA"; // yellow moon
 let mtn = "#D2E4F2"; // icy white blue 
+
+// FOOTSTEPS
+let footsteps = []; //array to store footsteps
+let lastFootX = -1000;
+let lastFootY = -1000; 
 
 // MOUNTAIN
 let peakX = 560;
