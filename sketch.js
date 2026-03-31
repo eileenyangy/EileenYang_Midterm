@@ -200,9 +200,8 @@ function draw() {
     noStroke();
     fill("#FFFFFF");
     let i = 0;
-    while (i < 40) {
-      //loop runs 40x to make 40 stars
-      x = random(800); //pick random position across canvas
+    while (i < 40) { //loop runs 40x to make 40 stars
+      x = random(800); //pick random position
       y = random(800 * 0.8); // only in the sky area
       size1 = random(1, 6); //random star size between 1 & 6 px
       ellipse(x, y, size1, size1);
@@ -275,14 +274,14 @@ function drawMoon(x, y, r) {
 }
 
 // ------------------- DRAW ROPE -------------------
-// Using a quadratic bezier curve for an arc so it looks more like a rope
+// Using a quadratic bezier curve for an arc so it looks more like a rope; instead of drawing the whole curve at once, I split it into a bunch of tiny segments (like 30); then I draw little lines between each point so it looks smooth
 // ropeExtension (0 to 1) controls how much of the rope is visible and grows frame by frame
 
 function drawRope() {
   let handX = peakX - 10; // x of the climber's raised hand
   let handY = peakY - 40; // y of the raised hand
-  let midX = (handX + ropeAnchorX) / 2; // midpoint x between hand & moon anchor, control point
-  let midY = (handY + ropeAnchorY) / 2 - 30; // midpoint y, 30px up
+  let midX = (handX + ropeAnchorX) / 2; // midpoint x between hand & moon anchor, ctrl point
+  let midY = (handY + ropeAnchorY) / 2 - 30;
   stroke("#000000");
   strokeWeight(1.5);
   noFill();
